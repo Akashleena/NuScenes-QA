@@ -5,7 +5,7 @@
 
 import numpy as np
 import torch
-import glob, json, re, en_vectors_web_lg
+import glob, json, re, spacy
 import torch.utils.data as Data
 import ipdb
 
@@ -77,7 +77,7 @@ class NuScenes_QA(Data.Dataset):
             'CLS': 2,
         }
 
-        spacy_tool = en_vectors_web_lg.load()
+        spacy_tool = spacy.load("en_core_web_lg")
         pretrained_emb = []
         pretrained_emb.append(spacy_tool('PAD').vector)
         pretrained_emb.append(spacy_tool('UNK').vector)
