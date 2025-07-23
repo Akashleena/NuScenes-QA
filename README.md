@@ -100,7 +100,12 @@ outputs/result/result_run_xxx.txt
 
 ## :star: Others
 If you have any questions about the dataset and its generation or the object-level feature extraction, feel free to cantact me with `twqian19@fudan.edu.cn`.
+## My contributions so far:![bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8 u1](https://github.com/user-attachments/assets/0acec2b7-af05-4c6e-83d9-b608cd2fd96d)
 
+
+Created a docker image because the spacy installation made me cry.
+I am skipping this repo and going for BLIP instead because it had pretrained models -- also i am new to LLM paper implementation so I found the best resource to understand how to implement any LLM paper without crying
+https://blog.briankitano.com/llama-from-scratch/#:~:text=Before%20you%20even%20look%20at,and%20evaluating%20as%20you%20go
 
 ## :book: Citation
 If you find our paper and project useful, please consider citing:
@@ -111,12 +116,7 @@ If you find our paper and project useful, please consider citing:
   journal={arXiv preprint arXiv:2305.14836},
   year={2023}
 }
-## My contributions so far:![bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8 u1](https://github.com/user-attachments/assets/0acec2b7-af05-4c6e-83d9-b608cd2fd96d)
 
-
-Created a docker image because the spacy installation made me cry.
-I am skipping this repo and going for BLIP instead because it had pretrained models -- also i am new to LLM paper implementation so I found the best resource to understand how to implement any LLM paper without crying
-https://blog.briankitano.com/llama-from-scratch/#:~:text=Before%20you%20even%20look%20at,and%20evaluating%20as%20you%20go
 ```
 
 ## Acknowlegement
